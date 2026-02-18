@@ -50,7 +50,7 @@ const removeFood = async(req, res) => {
         res.json({success:true, message:"Food Removed"})
     } catch (error) {
         console.log(error);
-        res.json({success:false, message:"error"})
+        res.json({success:false, message:"Remove food error"})
         
         
     }
